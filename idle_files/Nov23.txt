@@ -1,0 +1,133 @@
+Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+2%2
+0
+3%2
+1
+1%2
+1
+for x in range(1,5):
+    print(x)
+
+
+1
+2
+3
+4
+range(5)
+range(0, 5)
+for x in range(5):
+    print(x)
+
+
+0
+1
+2
+3
+4
+l = [0,1,2,3,4,5]
+range(100)
+range(0, 100)
+
+s="abcdefghijklmnopqrstuvwxyz"
+for s in range(0,6)
+SyntaxError: expected ':'
+s[0]
+'a'
+s[0:6]
+'abcdef'
+s[0:5]
+'abcde'
+'abcde'
+'abcde'
+s[:5]
+'abcde'
+s[0:]
+'abcdefghijklmnopqrstuvwxyz'
+len(s)
+26
+s[25]
+'z'
+s[0:26]
+'abcdefghijklmnopqrstuvwxyz'
+'abcdefghijklmnopqrstuvwxyz'
+'abcdefghijklmnopqrstuvwxyz'
+s[0:5]
+'abcde'
+s[0:5:1]
+'abcde'
+s[0:5:2]
+'ace'
+s[0:26:2]
+'acegikmoqsuwy'
+s[0:26:3]
+'adgjmpsvy'
+s[0:26:5]
+'afkpuz'
+s[0:10]
+'abcdefghij'
+s[0:10:1]
+'abcdefghij'
+s[0]
+'a'
+s[1]
+'b'
+s[2]
+'c'
+s[9]
+'j'
+s[0:10:1]
+'abcdefghij'
+s[0:10:2]
+'acegi'
+s[0]
+'a'
+s[2]
+'c'
+s[4]
+'e'
+s[6]
+'g'
+s[8]
+'i'
+
+l = [1,2,3,4,5,6,7,8,9]
+l[0]
+1
+l[:5]
+[1, 2, 3, 4, 5]
+l[0:5:2]
+[1, 3, 5]
+s
+'abcdefghijklmnopqrstuvwxyz'
+s[0]
+'a'
+l
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+l[0]
+1
+l[1]
+2
+s[-1]
+'z'
+s[-2]
+'y'
+len(l)
+9
+l[9]
+Traceback (most recent call last):
+  File "<pyshell#56>", line 1, in <module>
+    l[9]
+IndexError: list index out of range
+l[8]
+9
+l[-1]
+9
+l[-2]
+8
+
+x = 5
+x+2000
+2005
+10+2000
+2010
